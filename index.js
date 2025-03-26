@@ -1,4 +1,4 @@
-const core = require('@actions/core');
+import core from '@actions/core';
 
 const name = core.getInput('name');
 const output = `Hello ${name}`;
