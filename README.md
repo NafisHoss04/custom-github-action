@@ -1,3 +1,23 @@
-# custom-github-action
+# Hello world javascript action
 
-This is a custom github action I created to learn how to do so :)
+This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
+
+## Inputs
+
+### `who-to-greet`
+
+**Required** The name of the person to greet. Default `"World"`.
+
+## Outputs
+
+### `time`
+
+The time we greeted you.
+
+## Example usage
+
+```yaml
+uses: NafisHoss04/custom-action@0.0.1
+with:
+  name: 'Nafis'
+```
